@@ -82,3 +82,56 @@ if GS=="3":
         GS="4c"
 if GS=="3b":
     print("You arive outside the doors to fashion")
+    print("you can either choose to go forward to band or walk into fashion")
+    print("choose 1 for fasion and 2 for band")
+    c=input("make your choice")
+    if c=="1":
+        print("you walk into fashion and are greated by many kids")
+        print("All of the students smile at you deviously and start pulling out complete outfits")
+        print("You end up getting dressed up in a lot of outfits from sweeters and sweetpants to dresses to a tuxedo")
+        print("You end up getting trapped forrever as a modle for the fashion students")
+        GS="lose"
+    if c=="2":
+        print("you continoue forward arriving at the etrance to band")
+        GS="4b"
+        print("//////////////////////////////////////")
+##layer 4
+if GS=="4":
+    print("you arrive at the third intercection and must once more choose a path")
+    print("you can go to the library or keep going forward")
+    print("choose 1 for continoue forward choose 2 for the library")
+    c=input("make your choice")
+    if c=="1":
+        print("you keep walking forward with determination")
+        GS="5"
+        print("//////////////////////////////////////")
+    if c=="2":
+        print("you walk twords the library")
+        print("you arrive at the doors and swing them open only to relise a dragon has come out of a book")
+        print("quickly you dash to the side and hide behind a fliped over table")
+        print("while behind the table you see a book laying open face down")
+        print('you pick up the book and inspect it the title says the "tale of a dragon"')
+        print("you quickly slam the book shut and the dragon vanashies")
+        print("even though you have saved the day you do hear the seconde bell go")
+        print("you are late for computers class")
+        GS="lose"
+        print("//////////////////////////////////////")
+if GS=="4b":
+    print("two options await you could either go into the music room where sweet melodies come from or continoue outside")
+    print("choose 1 for the music room and choose 2 to go outside")
+    c=input("make your choice")
+    if c=="1":
+        print("You enter the music rooms lured by the sweet songs that are played")
+        print("You end up surrounded by plesent sounds and songs you've never heard befor")
+        print("they offer for you to stay and keep listening to their sweet songs")
+        print("there's no way you could possibly deny that offer")
+        print("you stay forever in the music room traped by song")
+        GS="lose"
+        print("//////////////////////////////////////")
+    if c=="2":
+        print("you break free of the song and keep going")
+        print("you push open the doors and end up outside in the cool crisp air")
+        GS="5b"
+        print("//////////////////////////////////////")
+if GS=="4c":
+    print("the math hydra confronts you")
