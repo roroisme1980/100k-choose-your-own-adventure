@@ -62,7 +62,7 @@ if GS=="3":
     print("three options present themselfs continue down the main hall, look in the lost and found, go twords math hall")
     print("choose 1 for continue 2 for lost and found and 3 for math")
     c=input("make your decision")
-    if c==1:
+    if c=="1":
         print("you head directly for the third intercection")
         print("//////////////////////////////////////")
         GS="4"
@@ -167,4 +167,48 @@ if GS=="4c":
         GS="lose"
         print("//////////////////////////////////////")
 if GS=="5":
-    print("")
+    print("You arrive at the forth intersection")
+    print("two options present themselfs to you continue forward or go to the science hall")
+    print("choose 1 to continue and finish your journey and choose 2 to go into the science hall")
+    c=input("make your decision")
+    if c=="1":
+        print("you continue onto the last intersection")
+        print("you are now entering the final leg of your journey")
+        GS="6"
+        print("//////////////////////////////////////")
+    if c=="2":
+        print("you walk up the stairs into the science hall")
+        print("you reach the top of the stairs")
+        print("//////////////////////////////////////")
+        GS="6d"
+if GS=="5b":
+    print("the cold air kicks in")
+    print("you can now make the descision to leave or continue tword the final hallway")
+    print("choose 1 to go on a walk choose 2 to go into the final area")
+    c=input("make a choice")
+    if c=="1":
+        print("you continue outside the cool crisp air is wonderful")
+        print("You here the seconde bell go but you don't care your already walking away")
+        print("you esscaped the school but you will have to make up the computers class")
+        print("enjoy your relaxation while you can")
+        GS="outside"
+        print("//////////////////////////////////////")
+    if c=="2":
+        print("you hug the school and go in the direction of the door to the applied skills hall")
+        print("you reach the entrace your so close to your goal only one choice left")
+        print("you time has almost come")
+        print("//////////////////////////////////////")
+        GS="6"
+if GS=="6":
+    print("the finale hallway is upon you this is the last decision and you have 5 of them")
+    print("the time has come")
+    print("choose 1 to go to computers choose 2 to go outside choose 3 to go to drafting 4 to go to mecanics and 5 for woodworking")
+    c=input("make the final choice")
+    if c=="1":
+        print("you did it and are walking into computers class")
+        print("congradulations you avoided distractions at all costs")
+        print("you might have had more fun if you gave into your urges")
+        print("just think about it")
+        GS="win"
+    if c=="2":
+        print("")    
