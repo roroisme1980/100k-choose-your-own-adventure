@@ -135,3 +135,36 @@ if GS=="4b":
         print("//////////////////////////////////////")
 if GS=="4c":
     print("the math hydra confronts you")
+    print("the math hydra confronts you with the first problem")
+    print("what is 1*1?")
+    math=input("answer ")
+    if math=="1":
+        print("correct")
+        print("what is 1404^0")
+        math=input("answer ")
+        if math=="1":
+            print("correct")
+            print("what is 1!")
+            math=input("answer ")
+            if math =="1":
+                print("you are right this time")
+                print("take the parabola")
+                GS="win"
+                print("//////////////////////////////////////")
+            if math != "1":
+                print("wrong")
+                print("the math hydra divides all you body parts by diffent integers")
+                GS="lose"
+                print("//////////////////////////////////////")
+        if math!="1":
+            print("nope")
+            print("the hydra turns all your bones into right triangles")
+            GS="lose"
+            print("//////////////////////////////////////")
+    if math != "1" :
+        print("wrong")
+        print("the hydra traps you in a repeating decimal")
+        GS="lose"
+        print("//////////////////////////////////////")
+if GS=="5":
+    print("")
