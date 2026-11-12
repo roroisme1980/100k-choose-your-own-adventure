@@ -209,6 +209,46 @@ if GS=="6":
         print("congradulations you avoided distractions at all costs")
         print("you might have had more fun if you gave into your urges")
         print("just think about it")
+        print("//////////////////////////////////////")
         GS="win"
     if c=="2":
-        print("")    
+        print("you step outside of the building")
+        print("It's cold and nice a breeze blows by you are back outside of the school")
+        print("You continue to walk forward in the direction of the bike racks")
+        print("You are free from the school but you are going to miss computers class")
+        print("your gonna relax today but next class you are going to need to do double the work")
+        print("//////////////////////////////////////")
+        GS="outside"
+    if c=="3"
+        print("You enter the drafting room computers hum and the 3d printer buzzes")
+        print("You approach one of the computers and matirials and colors instantly pop out at you")
+        print("the computers aluring you want to edit the objects you NEED to edit the objects")
+        print("you sit at the computer and start clicking away at the computer")
+        print("the shapes start bending to your whim you see it you see all of it")
+        print("the vertacies edges and faces it all makes sense now you can edit the real world")
+        print("you pull the top face of the table up this is magic")
+        print("you can't leave now your in too deep")
+        print("//////////////////////////////////////")
+        GS="lose"
+    if c=="4":
+        print("The machines have started clunking and churning metal sparks fly and the welding tourch glows")
+        print("it all looks so fun the machines and the heat and the engines")
+        print("they are all calling your name")
+        print("they want you to fix them and for you to edit them")
+        print("you walk to an engine it's metal shining on the table")
+        print("you try to start it up and it dosn't work")
+        print("you have to fix it now")
+        print("it's begging you")
+        print("you get stuck in mecanics and miss computers class")
+        print("//////////////////////////////////////")
+        GS="lose"
+    if c=="5":
+        print("You go into woodworking")
+        print("there is wood that is working")
+        print("well your here now might as well work the wood")
+        print("you start woodworking")
+        print("you missed class")
+        print("//////////////////////////////////////")
+        GS="lose"
+if GS=="6d":
+    print("")
