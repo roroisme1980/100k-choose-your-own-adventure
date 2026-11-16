@@ -5,10 +5,10 @@ GS="1"
 C=0
 
 ##layer 1
-print("The first bell just rang and you need to get to computers class")
+print("[bold cyan]The first bell just rang and you need to get to computers class[/bold cyan]")
 print("you need to choose between going into the theater or going forward")
-print("Choose 1 to move forwarf choose 2 to go to the theater")
-c=input("Make your decision ")
+print("Choose 1 to move forward choose 2 to go to the theater")
+c=input("Make your decision: ")
 if c=="1" :
     GS="2"
     print("you have reached the first intersection")
@@ -17,15 +17,11 @@ if c=="2":
     GS="2a"
     print("You have entered into the theater")
     print("//////////////////////////////////////")
-if c not in ("1","2"):
-    print("You're in the backrooms")
-    print("//////////////////////////////////////")
-    GS="?"
 ##layer 2
 if GS=="2":
     print("Your are now at an intercection choose to go into the cafatiria twords fashion or to the next intercetion")
     print("choose 1 for continue 2 for the caf 3 for fashion")
-    c=input("make your decision ")
+    c=input("make your decision: ")
     if c=="1":
         print("you have continued to the seconde intersection")
         print("//////////////////////////////////////")
@@ -45,7 +41,7 @@ if GS=="2a":
     print("all eyes are on you and they are all inviteing you to join the games,")
     print("the theater games. You could join and abadon your class but should you?")
     print("choose 1 to play the games 2 to exit the other side of the theater")
-    c=input("make your decision")
+    c=input("make your decision: ")
     if c=="1":
         print("You join the games. They are fun and you can't even here the seconde bell ring")
         print("by the time you leave the theater school is already over you were marked absent")
@@ -61,7 +57,7 @@ if GS=="3":
     print("you arrive at the seconde intersection and are faced with another decision")
     print("three options present themselfs continue down the main hall, look in the lost and found, go twords math hall")
     print("choose 1 for continue 2 for lost and found and 3 for math")
-    c=input("make your decision")
+    c=input("make your decision: ")
     if c=="1":
         print("you head directly for the third intercection")
         print("//////////////////////////////////////")
@@ -84,7 +80,7 @@ if GS=="3b":
     print("You arive outside the doors to fashion")
     print("you can either choose to go forward to band or walk into fashion")
     print("choose 1 for fasion and 2 for band")
-    c=input("make your choice")
+    c=input("make your choice: ")
     if c=="1":
         print("you walk into fashion and are greated by many kids")
         print("All of the students smile at you deviously and start pulling out complete outfits")
@@ -100,7 +96,7 @@ if GS=="4":
     print("you arrive at the third intercection and must once more choose a path")
     print("you can go to the library or keep going forward")
     print("choose 1 for continoue forward choose 2 for the library")
-    c=input("make your choice")
+    c=input("make your choice: ")
     if c=="1":
         print("you keep walking forward with determination")
         GS="5"
@@ -119,7 +115,7 @@ if GS=="4":
 if GS=="4b":
     print("two options await you could either go into the music room where sweet melodies come from or continoue outside")
     print("choose 1 for the music room and choose 2 to go outside")
-    c=input("make your choice")
+    c=input("make your choice: ")
     if c=="1":
         print("You enter the music rooms lured by the sweet songs that are played")
         print("You end up surrounded by plesent sounds and songs you've never heard befor")
@@ -166,11 +162,12 @@ if GS=="4c":
         print("the hydra traps you in a repeating decimal")
         GS="lose"
         print("//////////////////////////////////////")
+##layer 5
 if GS=="5":
     print("You arrive at the forth intersection")
     print("two options present themselfs to you continue forward or go to the science hall")
     print("choose 1 to continue and finish your journey and choose 2 to go into the science hall")
-    c=input("make your decision")
+    c=input("make your decision: ")
     if c=="1":
         print("you continue onto the last intersection")
         print("you are now entering the final leg of your journey")
@@ -185,7 +182,7 @@ if GS=="5b":
     print("the cold air kicks in")
     print("you can now make the descision to leave or continue tword the final hallway")
     print("choose 1 to go on a walk choose 2 to go into the final area")
-    c=input("make a choice")
+    c=input("make a choice: ")
     if c=="1":
         print("you continue outside the cool crisp air is wonderful")
         print("You here the seconde bell go but you don't care your already walking away")
@@ -199,11 +196,12 @@ if GS=="5b":
         print("you time has almost come")
         print("//////////////////////////////////////")
         GS="6"
+##layer 6
 if GS=="6":
     print("the finale hallway is upon you this is the last decision and you have 5 of them")
     print("the time has come")
     print("choose 1 to go to computers choose 2 to go outside choose 3 to go to drafting 4 to go to mecanics and 5 for woodworking")
-    c=input("make the final choice")
+    c=input("make the final choice: ")
     if c=="1":
         print("you did it and are walking into computers class")
         print("congradulations you avoided distractions at all costs")
@@ -219,7 +217,7 @@ if GS=="6":
         print("your gonna relax today but next class you are going to need to do double the work")
         print("//////////////////////////////////////")
         GS="outside"
-    if c=="3"
+    if c=="3":
         print("You enter the drafting room computers hum and the 3d printer buzzes")
         print("You approach one of the computers and matirials and colors instantly pop out at you")
         print("the computers aluring you want to edit the objects you NEED to edit the objects")
@@ -251,4 +249,45 @@ if GS=="6":
         print("//////////////////////////////////////")
         GS="lose"
 if GS=="6d":
-    print("")
+    print("As you arive in the science hall three options present themselfs to you")
+    print("option 1 go to physics option 2 go to chemestry option 3 go to biology")
+    c=input("make your choice: ")
+    if c=="1":
+        print("you enter the physics classroom and pendulums swing throught the air")
+        print("One swings twords you and you are forced to duck out of the way")
+        print("you dash forward befor it comes back as a small modle rocket takes off from the desk behind you")
+        print("their are so many things to make and calculations to do you feel enamored with a sense of wonder")
+        print("you stick around adjusting to the pendumums and small expirements finding a home in the chaos of physics")
+        GS="lose"
+        print("//////////////////////////////////////")
+    if c=="2":
+        print("you walk to the chemestry classroom but as you do an explosion rings out")
+        print("you rush in expecting some disater but find lots of students in lab coats taking observations on a bubbling solution")
+        print("they quickly shuffle taking in every angle of the mixture taking mesurments all the while")
+        print("after they finish the students dipose of the chemicals and start mixing new ones")
+        print("it looks fun so you join in dawning a lab coat and safty glasses")
+        print("you get so intangled in the expirements you forget about computers")
+        print("your brain is now entirly fixated on the solutions infront of you")
+        GS="lose"
+        print("//////////////////////////////////////")
+    if c=="3":
+        print("it's biology")
+        print("I mean I guess you can stay here")
+        print("enjoy your biology")
+        GS="lose"
+        print("//////////////////////////////////////")
+##layer final
+if GS=="lose":
+    print("you have lost and didn't make it to computers class on time")
+    print("better luck next time but hey at least you tried something new and fun")
+    print("maybe the real way to win is to have fun and explore")
+    print("it's not but what if")
+    print("//////////////////////////////////////")
+if GS=="win":
+    print("you have made it to computers class on time good job")
+    print("you sucsefuly avoided distraction or forged your own path")
+    print("but did you really enjoy yourself?")
+    print("don't you wonder what was down all the hallways you didn't take")
+    print("maybe you should try agin")
+    print("//////////////////////////////////////")
+
