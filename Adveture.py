@@ -145,6 +145,7 @@ if GS=="4c":
             if math =="1":
                 print("you are right this time")
                 print("take the parabola")
+                print("you slide down into computers class safe and sound")
                 GS="win"
                 print("//////////////////////////////////////")
             if math != "1":
